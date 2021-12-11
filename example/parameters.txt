@@ -1,0 +1,2 @@
+forward	R1.fastq
+reverse	R2.fastq

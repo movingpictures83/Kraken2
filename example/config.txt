@@ -1,0 +1,2 @@
+Prefix plugins/Kraken2/example/
+Plugin Kraken2 inputfile parameters.txt outputfile taxa.krak2
