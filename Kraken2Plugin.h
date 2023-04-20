@@ -17,8 +17,8 @@ public:
 private: 
  std::string inputfile;
  std::string outputfile;
-std::map<std::string, std::string> parameters;
-
+//std::map<std::string, std::string> parameters;
+ std::vector<std::string> files;
 };
 
 #endif
