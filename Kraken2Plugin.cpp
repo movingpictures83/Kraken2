@@ -33,7 +33,7 @@ void Kraken2Plugin::output(std::string file) {
 	if (files.size() % 2 == 0)
 		command += "--paired ";
 	for (int i=0; i < files.size(); i++){
-           command += std::string(PluginManager::prefix())+"/"+files[i] + " ";
+           command += /*std::string(PluginManager::prefix())+"/"+*/files[i] + " ";
 	}
  std::cout << command << std::endl;
 
