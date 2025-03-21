@@ -2,11 +2,12 @@
 #define KRAKEN2PLUGIN_H
 
 #include "Plugin.h"
+#include "Tool.h"
 #include "PluginProxy.h"
 #include <string>
 #include <vector>
 
-class Kraken2Plugin : public Plugin
+class Kraken2Plugin : public Plugin, Tool
 {
 public: 
  std::string toString() {return "Kraken2";}
